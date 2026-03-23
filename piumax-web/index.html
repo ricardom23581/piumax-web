@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piumax</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <img src="img/logo-4.png" height="50">
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- NOSOTROS -->
+<section class="container py-5">  
+  <img src="img/ImagenInstitucional.jpg" class="d-block w-100" alt="Imagen Institucional">
+  <h2 class="text-center mb-4">Nosotros</h2>
+  
+ 
+  <div class="row align-items-center">
+    <!-- 1/3 -->
+    <div class="col-md-4">
+      <div class="box-izq">
+        <img src="img/ImagenAplicacion.jpg" class="d-block w-100" alt="Imagen Institucional">
+      </div>
+    </div>
+  
+    <!-- 2/3 -->
+    <div class="col-md-8">
+       <div class="box-der">
+         <p class="text-justify">
+            En PIUMAX ofrecemos soluciones integrales de aislación térmica e impermeabilización con 
+            poliuretano y poliurea, diseñadas para garantizar la máxima protección y durabilidad en 
+            cada proyecto. Nuestra prioridad es proporcionar resultados excepcionales que cumplan con 
+            los más altos estándares técnicos, asegurando la satisfacción de nuestros clientes en los 
+            sectores industrial, comercial y residencial.
+            Nos comprometemos a trabajar con un enfoque personalizado, adaptándonos a las necesidades 
+            específicas de cada obra. Con un equipo altamente capacitado y tecnología de vanguardia, 
+            entregamos soluciones eficientes que combinan innovación, calidad y responsabilidad, 
+            posicionándonos como un aliado confiable para quienes buscan optimizar y proteger sus 
+            espacios y estructuras.  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Servicios</h2>
+    <div class="row align-items-center">
+      
+      <!-- 2/3 -->
+       <div class="col-md-8">
+    <div class="box-izq d-flex contenedor-texto">      
+      <div class="row text-center w-100">
+        <div class="bloque-texto">
+          <h4>Aislación Hidrófuga</h4>
+          <p>Recubrimientos impermeabilizantes de alta resistencia.</p>
+        </div>
+  
+        <div class="bloque-texto">
+          <h4>Aislación Térmica</h4>
+          <p>Eficiencia energética y confort térmico.</p>
+        </div>
+  
+        <div class="bloque-texto">
+          <h4>Aislación Acústica</h4>
+          <p>Reducción de ruidos y vibraciones.</p>
+        </div>
+      </div>
+    </div>  
+  </div>  
+
+      <!-- <div class="col-md-8">
+        <div class="box-izq">
+          <div class="row text-center">
+            <div>
+              <h4>Aislación Hidrófuga</h4>
+              <p>Recubrimientos impermeabilizantes de alta resistencia.</p>
+            </div>
+      
+            <div>
+              <h4>Aislación Térmica</h4>
+              <p>Eficiencia energética y confort térmico.</p>
+            </div>
+      
+            <div>
+              <h4>Aislación Acústica</h4>
+              <p>Reducción de ruidos y vibraciones.</p>
+            </div>
+          </div>
+        </div>  
+      </div>   -->
+
+      <!-- 1/3 -->
+      <div class="col-md-4">
+        <div class="box-izq">
+          <img src="img/ImagenAplicacion-1.jpg" class="d-block w-100" alt="Imagen Institucional">
+        </div>
+      </div>
+    </div> 
+
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<!-- CAROUSEL -->
+<section id="hero-carousel">
+  <div>
+    <h2 class="text-center mb-4">Proyectos</h2>
+  </div>
+  <div id="carouselPiumax" 
+     class="carousel carousel-fade slide" 
+     data-bs-ride="carousel"
+     data-bs-interval="1000"
+     data-bs-pause="hover"
+     data-bs-wrap="true">
+
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="overlay"></div>
+        <img src="img/slide1.jpg" class="d-block w-100" alt="Soluciones industriales">
+
+        <div class="carousel-caption custom-caption">
+          <h1>Soluciones Técnicas en Poliuretano</h1>
+          <p>Especialistas en aplicaciones para minería, energía y obras hidráulicas</p>
+          <div class="buttons">
+            <!-- <a href="#servicios" class="btn btn-warning">Nuestros Servicios</a> -->
+            <a href="#servicios" class="btn btn-warning btn-lg">Nuestros Servicios</a>
+            <a href="#contacto" class="btn btn-outline-light">Contactanos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <img src="img/slide2.jpg" class="d-block w-100" alt="Impermeabilización">
+
+        <div class="carousel-caption custom-caption">
+          <h1>Impermeabilización de Alta Performance</h1>
+          <p>Protección extrema contra químicos, abrasión y condiciones severas</p>
+          <div class="buttons">
+            <a href="#proyectos" class="btn btn-warning">Ver Proyectos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <img src="img/slide3.jpg" class="d-block w-100" alt="Obras complejas">
+
+        <div class="carousel-caption custom-caption">
+          <h1>Experiencia en Obras Críticas</h1>
+          <p>Diques, oleoductos y estructuras de alta exigencia técnica</p>
+          <div class="buttons">
+            <a href="#empresa" class="btn btn-warning">Quiénes Somos</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+  <!-- Controles -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPiumax" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselPiumax" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  
+  </div>
+</section> 
+
+<!-- CONTACTO -->
+<section class="bg-dark text-white py-5">
+  <div class="container text-center">
+    <h2>Contacto</h2>
+    <p>+54 11 6432 3496</p>
+    <p>info@piumax.ar</p>
+  </div>
+</section>
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
